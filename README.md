@@ -8,7 +8,7 @@ It provides a smart status bar for loops. It can be used to display the progress
 
 # Usage
 	loop:
-	    """loop statements"""
+	    """Statements"""
 	    smart_status_bar.status_bar(index, total, message)
 
 	where
