@@ -4,7 +4,7 @@ It provides a smart status bar for loops. It can be used to display the progress
 
 # Install
 
-	pip3 install smart-status-bar-shreyansh7499 
+	pip3 install smart-status-bar 
 
 # Usage
 	loop:
