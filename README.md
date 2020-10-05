@@ -8,7 +8,7 @@ It provides a smart status bar for loops. It can be used to display the progress
 
 # Usage
 	loop:
-	    """Statements"""
+	    """ Statements """
 	    smart_status_bar.status_bar(index, total, message)
 
 	where
@@ -21,9 +21,9 @@ It provides a smart status bar for loops. It can be used to display the progress
 import smart_status_bar 
 import time
 
-LOOP = 50
-for i in range(LOOP):
-	smart_status_bar.status_bar(i, LOOP, f"This is iteration {i}")
+ITERATIONS = 50
+for i in range(ITERATIONS):
+	smart_status_bar.status_bar(i, ITERATIONS, f"This is iteration {i}")
 	time.sleep(0.2)
 </code></pre>
 
