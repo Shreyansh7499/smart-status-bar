@@ -4,8 +4,8 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="smart-status-bar-shreyansh7499",
-    version="0.1.1",
+    name="smart-status-bar",
+    version="1.0.1",
     author="Shreyansh Nagpal",
     author_email="shreyanshnagpal7499@gmail.com",
     description="A smart status bar for loops.",
@@ -20,4 +20,3 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
 )
-
