@@ -9,14 +9,14 @@ time_start = None
 def progress(index, total):
 	bar = '|' + colors.bg.green
 	for i in range (100):
-		if (index / (total - 1)) > (i / 100) :
+		if (index / (total)) > (i / 100) :
 			bar += ' '
 		elif bar.find(colors.reset) == -1:
 			bar += colors.reset
 		else:
 			bar += ' '
 	bar += colors.reset + colors.fg.green + '|' + colors.reset + colors.bold
-	return bar, round((index / (total - 1))*100, 2)
+	return bar, round((index / (total))*100, 2)
 
 
 def get_time_str(time):
@@ -36,7 +36,7 @@ def get_times(percentage):
 
 	try:
 		eta = get_time_str(((curr_time * 100) / percentage) - curr_time)
-	except Exception as e:
+	except Exception:
 		eta = "inf"
 	finally:
 		return get_time_str(curr_time), eta

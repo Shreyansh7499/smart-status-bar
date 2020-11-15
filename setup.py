@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="smart-status-bar",
-    version="1.0.1",
+    version="1.0.2",
     author="Shreyansh Nagpal",
     author_email="shreyanshnagpal7499@gmail.com",
     description="A smart status bar for loops.",
@@ -16,7 +16,7 @@ setuptools.setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Operating System :: OS Inde    pendent",
     ],
     python_requires='>=3.6',
 )
