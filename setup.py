@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="smart-status-bar",
-    version="1.0.2",
+    version="1.0.3",
     author="Shreyansh Nagpal",
     author_email="shreyanshnagpal7499@gmail.com",
     description="A smart status bar for loops.",
